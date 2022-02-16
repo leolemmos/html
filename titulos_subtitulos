@@ -1,0 +1,23 @@
+Títulos
+
+Assim como em um livro, uma página web pode conter uma hierarquia de títulos e 
+subtítulos para estabelecer uma divisão de seu conteúdo e, para conseguirmos realizar essa 
+tarefa, utilizamos as tags de título h1, h2, h3, h4, h5 e h6.
+As tags <h1>, <h2>, <h3>, <h4>, <h5> e <h6> informam ao navegador que trata-se de um 
+título (h vem de “heading” – cabeçalho ou título ), sendo <h1> o título de primeiro nível 
+apresentado com o maior tamanho de texto; <h2> o subtítulo de segundo nível apresentado 
+com tamanho de texto um pouco menor; e <h6> o subtítulo de sexto nível apresentado com o 
+menor tamanho de texto. Vamos a um exemplo:
+
+Exemplo de cabeçalhos:
+
+<h1>Este é um título</h1>
+<h2>Este é um sub-título</h2>
+
+Para cada tag de título o navegador atribui um tamanho diferente de fonte (letra). Esse 
+tamanho pode ser alterado através de regras CSS que veremos posteriormente em outro 
+curso, mas, por enquanto, utilizaremos o tamanho padrão da fonte definido pelo navegador.
+Dica extra: Sites como o Google, Yahoo! e Bing utilizam as tags de título como parâmetro de 
+ranqueamento nos resultados das suas buscas orgânicas. Dessa forma, devemos utilizar essas 
+tags de forma a atender as chamadas técnicas de SEO (Search Eng
+
