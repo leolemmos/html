@@ -1,0 +1,51 @@
+Lista ordenada e não ordenada
+
+Em diversas situações do nosso dia a dia necessitamos listar todo tipo de coisas. Na criação de 
+páginas web não é diferente, e por essa razão aprenderemos agora a criar os dois tipos de 
+listas mais comuns: as listas ordenadas e não ordenadas.
+Listas ordenadas, como o próprio nome já diz, são utilizadas para exibir qualquer conteúdo 
+de forma ordenada. 
+
+Por exemplo:
+
+1. São Paulo
+2. Rio de Janeiro
+3. Belo Horizonte
+4. Curitiba
+
+Para criarmos uma lista assim precisaremos dessa vez de duas tags para trabalhar em 
+conjunto, a tag <ol> e a <li>. Segue abaixo um exemplo de como fazemos para reproduzir em 
+html a lista ordenada acima.
+
+<ol>
+ <li>São Paulo</li>
+ <li>Rio de Janeiro</li>
+ <li>Belo Horizonte</li>
+ <li>Curitiba</li>
+</ol>
+
+
+Observação: A tag <ol> deve possuir pelo menos uma tag <li> para ser considerada uma lista 
+ordenada. Veja agora na imagem abaixo como o navegador exibe o código da lista ordenada no exemplo 
+acima
+
+Listas não ordenadas, por sua vez, são utilizadas para exibir qualquer conteúdo de forma 
+aleatória, não ordenada. Por exemplo:
+
+• Feijão
+• Arroz
+• Salada
+• Farofa
+Para criarmos uma lista assim precisaremos também trabalhar em conjunto com duas tags, 
+com a <ul> e a <li>. Segue abaixo um exemplo de como fazemos para reproduzir em html a 
+lista não ordenada acima.
+
+<ul>
+ <li>Feijão</li>
+ <li>Arroz</li>
+ <li>Salada</li>
+ <li>Farofa</li>
+</ul>
+
+Observação: A tag <ul> deve possuir pelo menos uma tag <li> para ser considerada uma lista 
+não ordenada.
