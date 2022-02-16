@@ -1,0 +1,40 @@
+<b>Estrutura de uma página HTML</b>
+
+Um site, em geral, é formado por uma ou mais páginas HTML que, por sua vez, é formado por 
+um conjunto de tags atreladas ao conteúdo do site, seja ele em forma de texto, imagens, 
+vídeos, etc. Para escrevermos uma página html, por mais simples que seja, precisamos utilizar 
+no mínimo as seguintes tags abaixo:
+
+<html> é a tag inicial de qualquer documento no formato html;
+<head> é uma seção da página que apresenta informações gerais;
+<title> é a tag que informa o título da página na barra do navegador;
+<body> é a seção principal, na qual será escrito o conteúdo da página.
+
+Com o conteúdo apresentado até aqui e com a tag <p> utilizada para criar parágrafos, já 
+podemos escrever a nossa primeira página em HTML. Para isso, observe o modelo abaixo e 
+logo em seguida os comentários de cada linha do código.
+
+Modelo básico de uma página HTML
+
+<html> 
+<head>
+ <title>Título da minha página</title>
+</head>
+<body>
+ <p>Olá Mundo! Esta é minha primeira página web</p>
+</body>
+</html>
+
+
+Observação: os número na frente do código servem exclusivamente para a explicação de cada linha
+Na linha 1 abrimos a tag <html> que informa ao navegador que esta é uma página html;
+Na linha 2 abrimos a tag <head> na qual ficará o cabeçalho da página;
+Na linha 3 temos a tag <title> que deverá sempre estar dentro da tag <head>. Observe que 
+abrimos com a tag <title>, colocamos o título da página e, em seguida, fechamos com a tag 
+</title>;
+Na linha 4 fechamos a tag <head> que abrimos na linha 2;
+Na linha 5 abrimos a tag <body> que conterá todo o conteúdo da nossa página;
+Na linha 6 abrimos a tag <p> para colocarmos o texto “Olá Mundo! Esta é minha primeira 
+página web” e logo em seguida fechamos o parágrafo com a tag </p>
+Na linha 7 fechamos a tag <body> que abrimos na linha 5
+Na linha 8 finalizamos o documento fechando a tag <html> que abrimos na linha 1.
